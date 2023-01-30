@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@200;500&family=Orbitron:wght@500&family=Quicksand:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;900&display=swap');
 
 :root{
     --main_color: #07020D;
@@ -9,5 +9,5 @@
 }
 
 *{
-  font-family: 'Koulen', cursive;
+    font-family: 'Noto Sans Mono', monospace;
 }
