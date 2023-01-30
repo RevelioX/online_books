@@ -1,8 +1,17 @@
+import style from "@/styles/nav.module.css"
 
 export default function Navigator(){
     return(
-        <nav>
-            <h1>Un navigator</h1>
+        <nav className={style.nav}>
+            <div className={Style.search}>
+
+            </div>
+
+            <div className={Style.options}>
+
+            
+
+            </div>
         </nav>
     )
 }
