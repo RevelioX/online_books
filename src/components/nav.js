@@ -9,7 +9,11 @@ export default function Navigator(){
 
             <div className={style.options}>
 
-            
+            <Button className={Style.indice}/>
+
+            <Button className={Style.carrito}/>
+
+            <Button className={Style.perfil}/>
 
             </div>
         </nav>
