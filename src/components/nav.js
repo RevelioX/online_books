@@ -1,4 +1,5 @@
 import style from "nav.css"
+import Button from '@mui/joy/Button';
 
 export default function Navigator(){
     return(
@@ -9,12 +10,11 @@ export default function Navigator(){
 
             <div className={Style.options}>
 
-                <div className={Style.Indice}></div>
+            <Button onClick={function(){}} className={Style.indice} />
 
-                <div className={Style.carrito}></div>
+            <Button onClick={function(){}} className={Style.carrito}/>
 
-                <div className={Style.Perfil}></div>
-
+            <Button onClick={function(){}} className={Style.perfil}/>
 
             </div>
         </nav>
