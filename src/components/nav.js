@@ -1,4 +1,5 @@
 import style from "@/styles/nav.module.css"
+import { Button } from "@mui/joy";
 
 export default function Navigator(){
     return(
