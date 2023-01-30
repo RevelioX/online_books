@@ -1,6 +1,6 @@
 
 
-nav{
+.nav{
     display: flex;
     background-color: var(--secundary_color_white);
     color: var(--main_color);
