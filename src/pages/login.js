@@ -4,7 +4,13 @@ import styles from "../styles/login.module.css"
 export default function Login(){
     return(
         <div className={styles.login}>
-            <h1>Banana</h1>
+            <Sheet variant="outlined" color="neutral">
+            <FormLabel>Username</FormLabel>
+            <Input className={styles.login_username} type="text" placeholder="RevelioX"></Input>
+            <FormLabel>Password</FormLabel>
+            <Input className={styles.login_password} type="password"></Input>
+            <Button color="primary"size="md" variant="solid" className={styles.login_button}>Login</Button>
+            </Sheet>
         </div>
     )
 }
