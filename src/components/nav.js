@@ -3,11 +3,11 @@ import style from "@/styles/nav.module.css"
 export default function Navigator(){
     return(
         <nav className={style.nav}>
-            <div className={Style.search}>
-
+            <div className={style.search}>
+            <h1>NAVIGATOR</h1>
             </div>
 
-            <div className={Style.options}>
+            <div className={style.options}>
 
             
 
