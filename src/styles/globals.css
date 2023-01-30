@@ -6,7 +6,8 @@
     --secundary_color_blue: #39A9DB;
     --secundary_color_celeste: #40bcd8;
     --secundary_color_green: #005c69;
+}
 
-    
-    
+*{
+  font-family: 'Koulen', cursive;
 }
