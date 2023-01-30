@@ -10,4 +10,6 @@
 
 *{
     font-family: 'Noto Sans Mono', monospace;
+    background-color:  var(--main_color);
+    color: var(--secundary_color_white);
 }
