@@ -7,7 +7,12 @@
 .login_button{
     margin-top: 10px;
 }
+
 .sheet{
     border-radius: 5px;
     padding: 10px;
+    background-color: var(--main_color);
+}
+
+.login_username{
 }
