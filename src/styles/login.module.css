@@ -2,17 +2,32 @@
     width: 40%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 200px;
+    
 }
 
 .login_button{
     margin-top: 10px;
+    width: 100%;
 }
 
 .sheet{
     border-radius: 5px;
     padding: 10px;
     background-color: var(--main_color);
+    background-color: rgb(46, 46, 44);
 }
 
 .login_username{
+    background-color:  rgb(46, 46, 44);
+    border-color: black;
+}
+
+.login_password{
+    background-color:  rgb(46, 46, 44);
+    border-color: black;
+}
+
+.Labels{
+    background-color:  rgb(46, 46, 44);
 }
