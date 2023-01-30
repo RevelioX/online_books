@@ -7,7 +7,7 @@ import styles from '@/styles/index.module.css'
 
 import comunismo from "../../public/index/communistbook.jpeg";
 import comunismo2 from "../../public/index/communistbook2.jpeg";
-import comunismo3 from "../../public/index/title_background.jpeg";
+import comunismo3 from "../../public/index/communistbook3.jpeg";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,11 +25,11 @@ export default function Home() {
 
         <div className={styles.sale}>
 
-          <Image src={comunismo} className={styles.comunismo}alt="comunismo"/>
+        <Image src={comunismo} className={styles.img}alt="comunismo"/>
 
-          <Image src={comunismo2} className={styles.comunismo2} alt="comunismo2"/>
-          
-          <Image src={comunismo3} className={styles.comunismo3} alt="comunismo3"/>
+        <Image src={comunismo2} className={styles.img2}alt="comunismo2"/>
+
+        <Image src={comunismo3} className={styles.img3}alt="comunismo3"/>
 
         </div>
 

@@ -16,36 +16,27 @@
 }
 
 .sale{
-    background-color: var(--secundary_color_blue);
-    padding-top: 6%;
-    padding-left: 1.5%;
+    background-image: url("../../public/index/title_background.jpeg");
+    padding-top: 1%;
+    padding-left: 0.5%;
+    padding-bottom: 0.5%;
     border-radius: 15px;
-    margin-left: 35%;
-    width: max-content;
-    height: min-content;
-
-    display: grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(2, 300px);
-    gap: 5px;
-    justify-content: center;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
 }
 
-.comunismo{
-    grid-column: 0/1;
-    grid-row: 1/2;
+.img{
+    order: 1;
 }
-
-.comunismo2{
-    grid-column: 1/2;
-    grid-row: 1/2;
+.img2{
+    order: 0;
 }
-
-.comunismo3{
-    grid-column: 0/2;
-    grid-row: 2/3;
+.img3{
+    order: 3;
 }
-
 .footer{
 
     text-align: center;
