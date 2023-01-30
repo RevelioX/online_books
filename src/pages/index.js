@@ -16,14 +16,15 @@ export default function Home() {
 
       </div>
 
+      <div className={styles.sale}>
 
-      <div className={styles.sale} >
-
-        <img className={styles.img} src="D:\Cosas Program\Github\online_books\public\index\communistbook.jpeg" alt="comunismo"/>
-        <img className={styles.img2} src="public\index\communistbook2.jpeg" alt="comunismo2"/>
-        <img className={styles.img3} src="public\index\communistbook3.jpeg" alt="comunismo3"/>
 
       </div>
+
+      <div className={styles.footer}>
+
+      </div>
+
     </>
   )
 }

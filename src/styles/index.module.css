@@ -12,7 +12,7 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
-.img{
+/*.img{
     grid-column: 0/1;
     grid-row: 0/1;
 }
@@ -25,4 +25,4 @@
 .img3{
     grid-column: 0/2;
     grid-row: 1/2;
-}
+}*/
