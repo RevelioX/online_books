@@ -8,6 +8,9 @@ import styles from '@/styles/index.module.css'
 import comunismo from "../../public/index/communistbook.jpeg";
 import comunismo2 from "../../public/index/communistbook2.jpeg";
 import comunismo3 from "../../public/index/communistbook3.jpeg";
+import noCapitalismo from "../../public/index/nocapitalismo.jpeg"
+import noCapitalismo2 from "../../public/index/nocapitalismo2.jpeg"
+import noCapitalismo3 from "../../public/index/nocapitalismo3.jpeg"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,13 +38,28 @@ export default function Home() {
 
         <div className={styles.recomendado}>
 
-            <p>Según tu catálogo de compras y tus búsquedas te ofrecemos los siguientes libros</p>
+          <p className={styles.recomendado_p}>Según tu catálogo de compras y tus búsquedas te ofrecemos los siguientes libros</p>
+          
+          <div className={styles.recomendado_img}>
 
+          <Image src={noCapitalismo} alt='NoCapitalismo'/>
+
+          <Image src={noCapitalismo2} alt='NoCapitalismo'/>
+
+          <Image src={noCapitalismo3} alt='NoCapitalismo'/>
+
+          </div>
+          
             
         </div>
 
+
+
+
         <div className={styles.footer}>
+
           <p>We are GODS, you should buy our books for your heal</p>
+
         </div>
       </div>
     </>
