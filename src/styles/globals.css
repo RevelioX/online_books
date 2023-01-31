@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;900&display=swap');
 
 :root{
-    --main_color: #07020D;
+    --main_color: #313032;
     --secundary_color_white: #F1E9DB;
     --secundary_color_blue: #39A9DB;
     --secundary_color_celeste: #40bcd8;
@@ -12,4 +12,9 @@
     font-family: 'Noto Sans Mono', monospace;
     background-color:  var(--main_color);
     color: var(--secundary_color_white);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
 }
