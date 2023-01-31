@@ -37,6 +37,14 @@
 .img3{
     order: 3;
 }
+
+.recomendado{
+    background-color: var(--secundary_color_white);
+    border-color: var(--secundary_color_blue);
+}
+
+
+
 .footer{
 
     text-align: center;

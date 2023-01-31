@@ -33,6 +33,13 @@ export default function Home() {
 
         </div>
 
+        <div className={styles.recomendado}>
+
+            <p>Según tu catálogo de compras y tus búsquedas te ofrecemos los siguientes libros</p>
+
+            
+        </div>
+
         <div className={styles.footer}>
           <p>We are GODS, you should buy our books for your heal</p>
         </div>
