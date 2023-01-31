@@ -26,6 +26,8 @@ export default function Home() {
 
         </div>
 
+        <h2 className={styles.sale_title}>SALE</h2>
+
         <div className={styles.sale}>
 
         <Image src={comunismo} className={styles.img}alt="comunismo"/>
@@ -38,7 +40,7 @@ export default function Home() {
 
         <div className={styles.recomendado}>
 
-          <p className={styles.recomendado_p}>Según tu catálogo de compras y tus búsquedas te ofrecemos los siguientes libros</p>
+          <p className={styles.recomendado_p}>Other people those recommended books</p>
           
           <div className={styles.recomendado_img}>
 
