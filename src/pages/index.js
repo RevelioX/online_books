@@ -11,6 +11,7 @@ import comunismo3 from "../../public/index/communistbook3.jpeg";
 import noCapitalismo from "../../public/index/nocapitalismo.jpeg"
 import noCapitalismo2 from "../../public/index/nocapitalismo2.jpeg"
 import noCapitalismo3 from "../../public/index/nocapitalismo3.jpeg"
+import happyBook from "../../public/index/happyBook.png"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -55,7 +56,14 @@ export default function Home() {
             
         </div>
 
+        <div className={styles.more}>
 
+          <Image src={happyBook} alt="Happy Book"/>
+
+          <p>We are growing and experimenting with your buys in our web. Our future is light for you buy books here. We love you for that</p>
+
+
+        </div>
 
 
         <div className={styles.footer}>

@@ -12,6 +12,7 @@
 .title{
     
     text-align: center;
+    font-size: 30px;
 
 }
 
@@ -73,6 +74,32 @@
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+.more{
+    background-color: var(--secundary_color_white);
+    border-color: var(--secundary_color_blue);
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.more p{
+    color: var(--main_color);
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.more Image{
+    background-color: transparent;
 }
 
 

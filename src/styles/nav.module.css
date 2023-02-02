@@ -1,26 +1,41 @@
 
 
 .nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr;
     background-color: var(--secundary_color_white);
-    color: var(--main_color);
+    
+    align-items: center;
+}
+
+.ico{
+    width: 90%;
+    height: min-content;
+    padding: 2px 0px;
+    background-color: transparent;
+    
 }
 
 .search{
     order: 0;
-    flex: 1 1 3fr;
+    flex: 3 1;
+    
 
     color: var(--secundary_color_white);
+    background-color: transparent;
 
 }
 
 .options{
     order: 1;
-    flex: 1 0.5 1fr;
+    flex: 1 0.5;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    background-color: transparent;
+    color: var(--main_color);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .indice{
