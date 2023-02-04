@@ -18,11 +18,11 @@ export default function Navigator(){
 
             <div className={style.options}>
 
-                <Link>Sing Up</Link>
-                <Link>Login</Link>
-                <Link>Mis Compras</Link>
-                <Link>Mi Perfil</Link>
-                <Link>Carrito</Link>
+                <Link className={style.singup}>Sing Up</Link>
+                <Link className={style.login}>Login</Link>
+                <Link className={style.compras}>Mis Compras</Link>
+                <Link className={style.perfil}>Mi Perfil</Link>
+                <Link className={style.carrito}>Carrito</Link>
 
             </div>
             
