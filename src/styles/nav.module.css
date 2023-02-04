@@ -38,33 +38,15 @@
     align-items: center;
 }
 
-.login{
-
+.options_Link{
+    color: var(--main_color);
 }
 
-.singup{
+.options_Link:hover{
 
+    color: var(--secundary_color_celeste);
 }
 
-.compras{
-
+.options_Link::selection{
+    color: var(--secundary_color_green);
 }
-
-.carrito{
-
-}
-
-.perfil{
-
-}
-
-/* Va en el nav, pero da error y estoy centrado enotra cosa xD
-<div>
-<div className={style.options}>
-
-            <Button className={style.indice}/>
-
-            <Button className={style.carrito}/>
-
-            <Button className={style.perfil}/>
-</div>*/

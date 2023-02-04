@@ -12,9 +12,11 @@
     font-family: 'Noto Sans Mono', monospace;
     background-color:  var(--main_color);
     color: var(--secundary_color_white);
+    
 }
 
 html,body{
+    background-image: url("../../public/backgrounds/circle-scatter-haikei.svg");
     margin: 0;
     padding: 0;
 }
