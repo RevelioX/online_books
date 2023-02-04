@@ -40,13 +40,16 @@
 
 .options_Link{
     color: var(--main_color);
+    text-decoration: none;
 }
 
 .options_Link:hover{
 
     color: var(--secundary_color_celeste);
+    text-decoration: none;
 }
 
 .options_Link::selection{
     color: var(--secundary_color_green);
+    background-color: var(--main_color);
 }
