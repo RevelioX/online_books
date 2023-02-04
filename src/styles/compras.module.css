@@ -2,9 +2,12 @@
     background-image: url("../../public/backgrounds/circle-scatter-haikei.svg");
     text-align: center;
     font-size: 50px;
+<<<<<<< HEAD
     margin-top: 0px;
     padding-top: 25px;
     
+=======
+>>>>>>> dc4399afbddd81c6bfe6370000e486cebe59f64a
 }
 
 .container{
@@ -26,14 +29,13 @@
 }
 
 .compra{
-
     background-color: var(--secundary_color_white);
     margin: 1% 2.5%;   
     height: 120px;
     width: 95%;
     display: flex;
     gap: 20px;
-    
+    margin-top: 0;
 }
 .compra p{
     background-color: transparent;
