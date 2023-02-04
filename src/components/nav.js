@@ -57,9 +57,15 @@ export default function Navigator(){
             </div>
 
             {menu && <div className={style.options_ver}></div>}
-            { size < 850 ? 
+            { size.width < 850 ? 
             <div className={style.options_ver}>
-                <Menu ></Menu>
+                <Menu>
+                <MenuItem><Link href="/signup" className={style.options_Link}>Sing Up</Link></MenuItem>
+                <MenuItem><Link href="/login" className={style.options_Link}>Login</Link></MenuItem>
+                <MenuItem><Link href="/compras" className={style.options_Link}>Mis Compras</Link></MenuItem>
+                <MenuItem><Link href="/carrito" className={style.options_Link}>Carrito</Link></MenuItem>
+                <MenuItem><Link href="/perfil" className={style.options_Link}>Mi Perfil</Link></MenuItem>
+                </Menu>
             </div> 
             : 
             <div className={style.options_hor}>

@@ -6,19 +6,16 @@ import PurchasedBook from '@/components/purchasedBook'
 
 export default function Compras(){
     return(
-        <>
-|       
-            <div className={style.body}>
-                <h1 className={style.title}>Your Buys</h1>
+        <div className={style.body}>
+            <h1 className={style.title}>Your Buys</h1>
 
-                <div className={style.container}>
+            <div className={style.container}>
 
-                    <p>You wasn't buy here yet</p>
+                <p>You wasn't buy here yet</p>
 
-                    <PurchasedBook/>
+                <PurchasedBook/>
 
-                </div>
             </div>
-        </>
-    )
+        </div>
+        )
 }
