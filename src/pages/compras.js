@@ -6,13 +6,8 @@ import PurchasedBook from '@/components/purchasedBook'
 
 export default function Compras(){
     return(
-<<<<<<< HEAD
         <div className={style.body}>
             <h1 className={style.title}>Your Buys</h1>
-=======
-            <div className={style.body}>
-                <h1 className={style.title}>Your Buys</h1>
->>>>>>> dc4399afbddd81c6bfe6370000e486cebe59f64a
 
             <div className={style.container}>
 
@@ -21,10 +16,6 @@ export default function Compras(){
                 <PurchasedBook/>
 
             </div>
-<<<<<<< HEAD
         </div>
         )
-=======
-    )
->>>>>>> dc4399afbddd81c6bfe6370000e486cebe59f64a
 }
