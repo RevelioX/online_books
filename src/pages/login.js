@@ -8,7 +8,6 @@ export default function Login(){
 
     function handleClick(){
         setInputState({username: false, password: false})
-        console.log("Azul")
     }
 
     return(
@@ -16,10 +15,10 @@ export default function Login(){
             <Sheet className={styles.sheet}variant="outlined" color="neutral">
             <h2 className={styles.text}>Login</h2>
             <FormLabel className={styles.Labels}>Username</FormLabel>
-            <Input className={styles.login_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
+            <Input required className={styles.login_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
             <FormLabel className={styles.Labels}>Password</FormLabel>
-            <Input className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
-            {!(inputState.username||inputState.password) && <p className={styles.error}>El nombre de usuario o la contraseña son incorrectos</p>}
+            <Input required className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+            {!(inputState.username||inputState.password) && <p className={styles.error}>Username or password is wrong.</p>}
             <Button color="primary" onClick={handleClick} size="sm" variant="solid" className={styles.login_button}>Login</Button>
             </Sheet>
         </div>
