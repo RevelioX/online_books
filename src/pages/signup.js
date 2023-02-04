@@ -13,9 +13,13 @@ export default function Signup(){
     return(
         <div className={styles.background}>
             <Sheet className={styles.sheet}variant="outlined" color="neutral">
+
             <h2 className={styles.text}>SignUp</h2>
+
             <FormLabel className={styles.Labels}>Username</FormLabel>
+
             <Input required className={styles.login_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
+            
             <FormLabel className={styles.Labels}>Password</FormLabel>
             <Input required className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
             <FormLabel className={styles.Labels}>Confirm Password</FormLabel>

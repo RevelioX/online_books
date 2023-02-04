@@ -19,7 +19,7 @@ export default function Navigator(){
 
             <div className={style.options}>
 
-                <Link href="/singup" className={style.options_Link}>Sing Up</Link>
+                <Link href="/signup" className={style.options_Link}>Sing Up</Link>
                 <Link href="/login" className={style.options_Link}>Login</Link>
                 <Link href="/compras" className={style.options_Link}>Mis Compras</Link>
                 <Link href="/carrito" className={style.options_Link}>Carrito</Link>
