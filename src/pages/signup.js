@@ -16,15 +16,19 @@ export default function Signup(){
 
             <h2 className={styles.text}>SignUp</h2>
 
-            <FormLabel className={styles.Labels}>Username</FormLabel>
+            <FormLabel className={styles.Labels}>Gmail</FormLabel>
+            <Input required className={styles.signup_gmail} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
 
-            <Input required className={styles.login_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
-            
+            <FormLabel className={styles.Labels}>Username</FormLabel>
+            <Input required className={styles.signup_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
+
             <FormLabel className={styles.Labels}>Password</FormLabel>
-            <Input required className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+            <Input required className={styles.signup_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+
             <FormLabel className={styles.Labels}>Confirm Password</FormLabel>
-            <Input required className={styles.login_password_confirm} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
-            <Button color="primary" onClick={handleClick} size="sm" variant="solid" className={styles.login_button}>Sign Up</Button>
+            <Input required className={styles.signup_password_confirm} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+
+            <Button color="primary" onClick={handleClick} size="sm" variant="solid" className={styles.signup_button}>Sign Up</Button>
             </Sheet>
         </div>
     )
