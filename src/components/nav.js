@@ -57,7 +57,7 @@ export default function Navigator(){
             </div>
 
             {menu && <div className={style.options_ver}></div>}
-            { size < 850 ? 
+            { size.width < 850 ? 
             <div className={style.options_ver}>
                 <Menu ></Menu>
             </div> 

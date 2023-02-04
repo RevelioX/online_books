@@ -6,8 +6,6 @@ import PurchasedBook from '@/components/purchasedBook'
 
 export default function Compras(){
     return(
-        <>
-|       
             <div className={style.body}>
                 <h1 className={style.title}>Your Buys</h1>
 
@@ -19,6 +17,5 @@ export default function Compras(){
 
                 </div>
             </div>
-        </>
     )
 }
