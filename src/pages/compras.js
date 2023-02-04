@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import style from "../styles/compras.module.css"
 
 import imgcompra from "../../public/index_nav/communistbook.jpeg"
+import purchasedBook from '@/components/purchasedBook'
 
 export default function Compras(){
     return(
@@ -14,41 +13,8 @@ export default function Compras(){
                 <div className={style.container}>
 
                     <p>You wasn't buy here yet</p>
-                    
-                    <div className={style.compra}> 
-                        <Image src={imgcompra} className={style.compra_img}/>
-                        <p> Title: Name </p>
-                        <p> Price: $9.99 </p>
-                        <p> Buy to: Name </p>
-                    </div>
 
-                    <div className={style.compra}> 
-                        <Image src={imgcompra} className={style.compra_img}/>
-                        <p> Title: Name </p>
-                        <p> Price: $9.99 </p>
-                        <p> Buy to: Name </p>
-                    </div>
-
-                    <div className={style.compra}> 
-                        <Image src={imgcompra} className={style.compra_img}/>
-                        <p> Title: Name </p>
-                        <p> Price: $9.99 </p>
-                        <p> Buy to: Name </p>
-                    </div>
-
-                    <div className={style.compra}> 
-                        <Image src={imgcompra} className={style.compra_img}/>
-                        <p> Title: Name </p>
-                        <p> Price: $9.99 </p>
-                        <p> Buy to: Name </p>
-                    </div>
-
-                    <div className={style.compra}> 
-                        <Image src={imgcompra} className={style.compra_img}/>
-                        <p> Title: Name </p>
-                        <p> Price: $9.99 </p>
-                        <p> Buy to: Name </p>
-                    </div>
+                    <purchasedBook/>
 
                 </div>
             </div>
