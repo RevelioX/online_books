@@ -2,7 +2,7 @@ import style from "../styles/compras.module.css"
 import imgcompra from "../../public/index_nav/communistbook.jpeg"
 import Image from "next/image"
 
-export default function purchasedBook(){
+export default function purchasedBook({bookImage,bookName,bookPrice,book}){
     return(
     <div className={style.compra}> 
                         <Image src={imgcompra} className={style.compra_img}/>
