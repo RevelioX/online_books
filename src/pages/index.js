@@ -68,7 +68,7 @@ export default function Home() {
 
         <div className={styles.footer}>
 
-          <p>We are GODS, you should buy our books for your heal</p>
+          <p>We are many people, you can enjoy for experiment with us</p>
 
         </div>
       </div>
