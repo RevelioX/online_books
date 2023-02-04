@@ -2,7 +2,7 @@ import style from "@/styles/nav.module.css"
 import Image from 'next/image'
 import { Input, Button, Link } from "@mui/joy";
 
-import icono from "../../public/favicon.ico"
+import icono from "../../public/index_nav/happyBook.png"
 
 export default function Navigator(){
     return(
