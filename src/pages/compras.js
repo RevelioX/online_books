@@ -2,7 +2,7 @@ import { Inter } from '@next/font/google'
 import style from "../styles/compras.module.css"
 
 import imgcompra from "../../public/index_nav/communistbook.jpeg"
-import purchasedBook from '@/components/purchasedBook'
+import PurchasedBook from '@/components/purchasedBook'
 
 export default function Compras(){
     return(
@@ -14,7 +14,7 @@ export default function Compras(){
 
                     <p>You wasn't buy here yet</p>
 
-                    <purchasedBook/>
+                    <PurchasedBook/>
 
                 </div>
             </div>
