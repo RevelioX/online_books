@@ -25,8 +25,8 @@
 .compra{
 
     background-color: var(--secundary_color_white);
-    margin: 0px 2.5%;   
-    height: 500px;
+    margin: 1% 2.5%;   
+    height: 120px;
     width: 95%;
     display: flex;
     gap: 20px;

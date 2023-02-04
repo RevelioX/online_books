@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import style from "../styles/compras.module.css"
 
 import imgcompra from "../../public/index_nav/communistbook.jpeg"
+
 export default function Compras(){
     return(
         <>
