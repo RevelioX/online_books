@@ -21,9 +21,9 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.title}>
 
-          <h1>Store of Books</h1>
+          <h1 className={styles.title_h1}>Store of Books</h1>
 
-          <p>The best website for buy many online and phisycs books</p>
+          <p className={styles.title_p}>The best website for buy many online and phisycs books</p>
 
         </div>
 
@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className={styles.more}>
 
-          <Image src={happyBook} alt="Happy Book"/>
+          <Image src={happyBook} className={styles.more_img}alt="Happy Book"/>
 
           <p>We are growing and experimenting with your buys in our web. Our future is light for you buy books here. We love you for that</p>
 
@@ -68,7 +68,7 @@ export default function Home() {
 
         <div className={styles.footer}>
 
-          <p>We are many people, you can enjoy for experiment with us</p>
+          <p className={styles.footer_p}>We are many people, you can enjoy for experiment with us</p>
 
         </div>
       </div>

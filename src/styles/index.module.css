@@ -1,3 +1,4 @@
+
 .container{
 
     display: grid;
@@ -5,6 +6,9 @@
     grid-template-rows: 0.3fr 0.5fr 1fr 0.2fr;
 
     justify-content: center;
+
+    background-image: url("../../public/backgrounds/circle-scatter-haikei.svg");
+    
 }
 
 
@@ -13,10 +17,19 @@
     
     text-align: center;
     font-size: 30px;
+    background-color: transparent;
 
 }
 
+.title_p{
+    background-color: transparent;
+}
+.title_h1{
+    background-color: transparent;
+}
+
 .sale{
+    
     background-image: url("../../public/index_nav/title_background.jpeg");
     padding-top: 1%;
     padding-left: 0.5%;
@@ -29,7 +42,7 @@
 }
 
 .sale_title{
-
+    background-color: transparent;
     text-align: center;
     font-size: 70px;
     height: 20px;
@@ -98,12 +111,17 @@
     background-color: transparent;
 }
 
-.more Image{
+.more_img{
     background-color: transparent;
 }
 
 
 .footer{
-
+    
+    background-color: transparent;
     text-align: center;
+}
+
+.footer_p{
+    background-color: transparent;
 }
