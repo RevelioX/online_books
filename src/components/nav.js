@@ -7,8 +7,9 @@ import icono from "../../public/index_nav/happyBook.png"
 export default function Navigator(){
     return(
         <nav id="demo_dark-mode-by-default" className={style.nav}>
-
+            <Link href="/">
             <Image src={icono} className={style.ico}/>
+            </Link>
 
             <div className={style.search}>
 
@@ -18,11 +19,11 @@ export default function Navigator(){
 
             <div className={style.options}>
 
-                <Link href="http://localhost:3000/singup" className={style.options_Link}>Sing Up</Link>
-                <Link href="http://localhost:3000/login" className={style.options_Link}>Login</Link>
-                <Link href="http://localhost:3000/compras" className={style.options_Link}>Mis Compras</Link>
-                <Link href="http://localhost:3000/carrito" className={style.options_Link}>Carrito</Link>
-                <Link href="http://localhost:3000/perfil" className={style.options_Link}>Mi Perfil</Link>
+                <Link href="/singup" className={style.options_Link}>Sing Up</Link>
+                <Link href="/login" className={style.options_Link}>Login</Link>
+                <Link href="/compras" className={style.options_Link}>Mis Compras</Link>
+                <Link href="/carrito" className={style.options_Link}>Carrito</Link>
+                <Link href="/perfil" className={style.options_Link}>Mi Perfil</Link>
                 
 
             </div>

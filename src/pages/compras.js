@@ -7,7 +7,7 @@ import imgcompra from "../../public/index_nav/communistbook.jpeg"
 export default function Compras(){
     return(
         <>
-            <body className={style.body}>
+            <div className={style.body}>
                 <h1 className={style.title}>Your Buys</h1>
 
                 <div className={style.container}>
@@ -20,9 +20,8 @@ export default function Compras(){
                         <p> Price: $9.99 </p>
                         <p> Buy to: Name </p>
                     </div>
-
                 </div>
-            </body>
+            </div>
         </>
     )
 }
