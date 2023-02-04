@@ -17,13 +17,17 @@ export default function Signup(){
             <h2 className={styles.text}>SignUp</h2>
 
             <FormLabel className={styles.Labels}>Username</FormLabel>
-
             <Input required className={styles.login_username} type="text" placeholder="RevelioX" color={ inputState.username ? "primary" : "danger"}></Input>
             
             <FormLabel className={styles.Labels}>Password</FormLabel>
             <Input required className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+
             <FormLabel className={styles.Labels}>Confirm Password</FormLabel>
-            <Input required className={styles.login_password_confirm} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+            <Input required className={styles.login_password} type="password" color={ inputState.password ? "primary" : "danger"}></Input>
+
+            <FormLabel className={styles.Labels}>Email</FormLabel>
+            <Input required className={styles.login_password} type="email" color={ inputState.password ? "primary" : "danger"}></Input>
+
             <Button color="primary" onClick={handleClick} size="sm" variant="solid" className={styles.login_button}>Sign Up</Button>
             </Sheet>
         </div>
