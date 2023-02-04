@@ -8,7 +8,7 @@ export default function purchasedBook(){
         <Image src={imgcompra} className={style.compra_img}/>
         <p> Title: Name </p>
         <p> Price: $9.99 </p>
-        <p> Buy to: Name </p>
+        <p> Autor: Name </p>
     </div>
     )
 }
